@@ -45,6 +45,8 @@ body {
   background-color: var(--bg-light);
 }
 
+
+
 .wrapper {
   width: min(50rem, 100%);
   margin-inline: auto;
@@ -434,6 +436,10 @@ footer {
 footer .logo {
   display: inline-block;
   margin-bottom: 2.4rem;
+  text-decoration: none;
+  color: white;
+
+  
 }
 
 footer .logo svg {
@@ -473,6 +479,10 @@ footer .social-links {
   opacity: 1;
   visibility: visible;
   transform: translateY(0);
+}
+a.logo {
+  text-decoration: none;
+
 }
 a.logo h1#logo {
   font-size: 3.2rem;
@@ -749,7 +759,10 @@ a.logo h1#logo {
   footer p {
     margin-bottom: 0
   }
+  a.logo {
+    text-decoration: none;
 
+  }
   a.logo h1#logo {
     font-size: 3.2rem;
     font-weight: 900;
